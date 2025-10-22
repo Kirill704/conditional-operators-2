@@ -33,7 +33,9 @@ public class Main {
 
 //задача 3
         int year = 2021;
-        if (year >= 1584 && year % 4 == 0 && year % 400 == 0) {
+        if (year >= 1584 && year % 400 == 0) {
+            System.out.println("год високосный");
+        } else if (year >= 1584 && year % 4 == 0 && year % 100 != 0) {
             System.out.println("год високосный");
         } else {
             System.out.println("год не високосный");
