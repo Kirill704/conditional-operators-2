@@ -5,16 +5,14 @@ public class Main {
 
 //задача 1
         byte clientOS = 0;
-        switch (clientOS) {
-            case 0:
-                System.out.println("Установите версию приложения для iOS по ссылке");
-                break;
-            case 1:
-                System.out.println("Установите версию приложения для Android по ссылке");
-                break;
-            default:
-                System.out.println("укажите OS");
+        if (clientOS == 0) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
+        } else if (clientOS == 1) {
+            System.out.println("Установите версию приложения для Android по ссылке");
+        } else {
+            System.out.println("укажите OS");
         }
+
 //задача 2
         byte clientOS2 = 1;
         short clientDeviceYear = 2015;
