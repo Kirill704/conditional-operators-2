@@ -27,6 +27,8 @@ public class Main {
         }
         if (clientDeviceYear >= 2015 && clientOS2 == 1) {
             System.out.println("Установите версию приложения для Android по ссылке");
+        } else {
+            System.out.println("неверно указана OS");
         }
 
 //задача 3
