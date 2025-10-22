@@ -54,7 +54,6 @@ public class Main {
             System.out.println("доставки нет");
         }
 
-
 //задача 5
         byte monthNumber = 12;
         switch (monthNumber) {
