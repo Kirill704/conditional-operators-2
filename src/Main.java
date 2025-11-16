@@ -19,13 +19,13 @@ public class Main {
         if (clientDeviceYear < 2015 && clientOS2 == 0) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
         }
-        if (clientDeviceYear < 2015 && clientOS2 == 1) {
+        else if (clientDeviceYear < 2015 && clientOS2 == 1) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         }
-        if (clientDeviceYear >= 2015 && clientOS2 == 0) {
+        else if (clientDeviceYear >= 2015 && clientOS2 == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
         }
-        if (clientDeviceYear >= 2015 && clientOS2 == 1) {
+        else if (clientDeviceYear >= 2015 && clientOS2 == 1) {
             System.out.println("Установите версию приложения для Android по ссылке");
         } else {
             System.out.println("неверно указана OS");
